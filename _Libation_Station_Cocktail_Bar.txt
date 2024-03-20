@@ -1,0 +1,48 @@
+# Libation Station Cocktail Bar
+
+## Description
+
+Libation Station is a virtual web page of a cocktail bar designed to present the bar's menu, provide information about the establishment, and allow users to make reservations. The web page includes sections such as Home, About Us, Reservation, Menu, Photo Gallery, and Contact. It offers a wide range of non-alcoholic beverages, beers, wines, and cocktails along with their respective prices. Users can also view the bar's location on a map and get in touch through provided contact information.
+
+## Technologies Used
+
+- HTML5
+- CSS3
+- JavaScript
+
+## Features
+
+- Responsive design: The web page is designed to be accessible on various devices, including computers, tablets, and smartphones.
+- Navigation: Users can easily navigate through different sections of the web page using the navigation bar.
+- Reservation: Users can reserve a spot at the bar by accessing the reservation section.
+- Menu: The web page showcases a comprehensive menu featuring various beverages and cocktails along with their prices.
+- Photo Gallery: Users can view images of the bar and its ambiance in the photo gallery section.
+- Contact: Users can find the bar's address, phone number, and email address in the contact section.
+
+## Author
+
+Created by: Magdaléna Škobrtalová
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone <repository-url>
+Open the index.html file in your web browser to view the web page.
+Usage
+Feel free to explore different sections of the web page to learn more about Libation Station Cocktail Bar and its offerings. Make reservations, check out the menu, view the photo gallery, and get in touch with the bar through the provided contact information.
+
+Credits
+Images: Images used on the web page are sourced from Unsplash and Pexels.
+Icons: Icons used on the web page are sourced from Font Awesome.
+Fonts: Fonts used on the web page are sourced from Google Fonts.
+License
+This project is provided without any license.
+
+sql
+Copy code
+
+If you need any further assistance or modifications, feel free to ask!
+## Contact
+
+If you have any questions or feedback regarding this project, feel free to contact me at Mahdalova9@seznam.cz.
