@@ -1,432 +1,242 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="cs">
-
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-        rel="stylesheet">
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
-        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <title>LIBATION STATION cokctail bar</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Libation Station | Cocktail bar v Hodoníně</title>
+  <meta name="description" content="Libation Station je moderní cocktail bar v Hodoníně. Koktejly, víno, pivo i nealko v uvolněné atmosféře. Prohlédněte si menu a naplánujte večer.">
+  <meta name="robots" content="index,follow,max-image-preview:large">
+  <meta name="theme-color" content="#111111">
+  <meta name="color-scheme" content="dark">
+  <link rel="canonical" href="https://majda171.github.io/Libation-Station/">
+  <link rel="preload" as="image" href="img/hero-cocktail.webp" fetchpriority="high">
+  <link rel="stylesheet" href="style.css">
+
+  <meta property="og:type" content="website">
+  <meta property="og:locale" content="cs_CZ">
+  <meta property="og:title" content="Libation Station | Cocktail bar v Hodoníně">
+  <meta property="og:description" content="Koktejly, dobrá atmosféra a večer, který nekončí u prvního drinku.">
+  <meta property="og:url" content="https://majda171.github.io/Libation-Station/">
+  <meta property="og:image" content="https://majda171.github.io/Libation-Station/img/hero-cocktail.webp">
+  <meta property="og:image:alt" content="Koktejl na baru v Libation Station">
+  <meta name="twitter:card" content="summary_large_image">
+
+  <link rel="icon" href="img/libation-station-icon.png" type="image/png">
+
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "BarOrPub",
+    "name": "Libation Station",
+    "url": "https://majda171.github.io/Libation-Station/",
+    "image": "https://majda171.github.io/Libation-Station/img/hero-cocktail.webp",
+    "description": "Moderní cocktail bar s nabídkou míchaných drinků, vína, piva a nealkoholických nápojů.",
+    "priceRange": "$$",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Hodonín",
+      "addressCountry": "CZ"
+    },
+    "openingHoursSpecification": [
+      {"@type":"OpeningHoursSpecification","dayOfWeek":["Tuesday","Wednesday","Thursday","Sunday"],"opens":"16:00","closes":"23:00"},
+      {"@type":"OpeningHoursSpecification","dayOfWeek":["Friday","Saturday"],"opens":"16:00","closes":"04:00"}
+    ]
+  }
+  </script>
 </head>
-
 <body>
-    <header>
-        <input type="checkbox" id="toggler">
-        <label for="toggler" class="fas fa-bars"></label>
-        <a href="#home" class="logo">Libation<span>Station</span></a>
-        <nav class="navbar">
-            <a href="#head">Domů</a>
-            <a href="#about">O nás</a>
-            <a href="#rezervation">Rezervace</a>
-            <a href="#menu">Nápojový lístek</a>
-            <a href="#photogallery">Fotogalerie</a>
-            <a href="#contact">Kontakt</a>
-        </nav>
-    </header>
-    <main>
-        <!--Home-->
-        <section class="head" id="head">
+  <a class="skip-link" href="#main">Přeskočit na obsah</a>
 
-            <div class="content">
-                <h2>MIXUJEME <span>VÁŠ</span> VEČER</h2>
-                <span>jeden koktejl za druhým</span>
-                <a href="#menu" class="btn">Nápojový lístek</a>
-            </div>
-        </section>
-        <!--About us-->
-        <section class="about" id="about">
-            <h1 class="heading">O nás</h1>
-            <div class="row">
-                <div class="image">
-                    <img src="img/man-pouring-sugar-powder-fruit-cocktail-with-kiwi-side-view.jpg" alt="koktejl">
-                </div>
-                <div class="content">
-                    <h3>LIBATION <span>STATION</span></h3>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem dolorum labore minus expedita,
-                        vel atque ex asperiores quis aliquam itaque! Ut sunt aperiam consequuntur, nihil adipisci quae!
-                        Culpa, quae similique?</p>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Id nam praesentium deleniti fugiat,
-                        deserunt quod consequatur quam dolor quis voluptatem quia corrupti mollitia, possimus atque
-                        facere sapiente. Sunt, eos quo.</p>
-                    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ratione error veritatis omnis aliquam
-                        laudantium reiciendis eligendi pariatur illo harum ipsum molestias praesentium, velit nesciunt!
-                        Suscipit alias nemo cum incidunt! Error.</p>
-                </div>
-            </div>
-        </section>
-        <!--Rezrvation-->
-        <section class="rezervation" id="rezervation">
-            <p>Zarezervujte si místo a zážitek</p>
-            <h1 class="heading">Rezervace</h1>
-            <div class="icons">
-                <a href="#"><img src="img/FACEBOOK.png" alt="facebook"></a>
-                <a href="#"><img src="img/PHONE.png" alt="telefon"></a>
-            </div>
-        </section>
-        <!--menu-->
-        <section class="menu" id="menu">
-            <h1 class="heading">Nápojový lístek</h1>
-            <div class="container">
-                <div class="col">
-                    <div class="drink-menu">
-                        <h3>Nealkoholické nápoje 0,25/0,30</h3>
-                        <div class="empty-line"></div>
-                        <div class="one-row">
-                            <div class="row">
-                                <span class="name">COCA-COLA</span> <span class="price">55Kč</span>
-                            </div>
+  <header class="site-header" id="top">
+    <div class="nav-wrap">
+      <a class="brand" href="#home" aria-label="Libation Station – domů">
+        <img class="brand-wordmark" src="img/libation-station-logo.svg" alt="Libation Station Cocktail Bar" width="416" height="67" loading="eager" decoding="async">
+      </a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="main-nav" aria-label="Otevřít menu">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="main-nav" id="main-nav" aria-label="Hlavní navigace">
+        <a href="#about">O nás</a>
+        <a href="#menu">Nápojový lístek</a>
+        <a href="#photogallery">Galerie</a>
+        <a href="#contact">Kontakt</a>
+        <a class="nav-cta" href="#reservation">Rezervace</a>
+      </nav>
+    </div>
+  </header>
 
-                            <hr class="line">
-                            <p>original, zero</p>
-                        </div>
-                        <div class="one-row">
-                            <div class="row">
-                                <span class="name">SPRITE</span> <span class="price">55Kč</span>
-                            </div>
+  <main id="main">
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="hero-overlay"></div>
+      <div class="hero-content section-shell">
+        <p class="eyebrow">COCKTAIL BAR · HODONÍN</p>
+        <h1 id="hero-title">Mixujeme <span>váš večer.</span></h1>
+        <p class="hero-lead">Jeden koktejl za druhým. Klasika, signature drinky a atmosféra, kvůli které se nechce domů.</p>
+        <div class="hero-actions">
+          <a class="button button-primary" href="#menu">Prohlédnout menu</a>
+          <a class="button button-ghost" href="#reservation">Rezervovat stůl</a>
+        </div>
+      </div>
+      <a class="scroll-cue" href="#about" aria-label="Pokračovat na sekci O nás">SCROLL <span aria-hidden="true">↓</span></a>
+    </section>
 
-                            <hr class="line">
-                            <p></p>
-                        </div>
-                        <div class="one-row">
-                            <div class="row">
-                                <span class="name">FANTA</span> <span class="price">55Kč</span>
-                            </div>
+    <section class="section section-dark" id="about" aria-labelledby="about-title">
+      <div class="section-shell about-grid">
+        <div class="about-media reveal">
+          <img src="img/bartender-cocktail.webp" width="1200" height="1500" alt="Barman připravuje ovocný koktejl" loading="lazy" decoding="async">
+        </div>
+        <div class="about-copy reveal">
+          <h2 id="about-title">Místo, kde má každý drink svůj moment.</h2>
+          <p>Libation Station je cocktail bar v Hodoníně pro večery, které mají chuť. Poctivé koktejly, kvalitní suroviny a atmosféra, ve které se dobře zůstává.</p>
+          <p>Stavte se na klasiku, objevte nový drink nebo si prostě dejte večer s přáteli. Za barem vám namícháme něco přesně podle nálady.</p>
+        </div>
+      </div>
+    </section>
 
-                            <hr class="line">
-                            <p></p>
-                        </div>
-                        <div class="one-row">
-                            <div class="row">
-                                <span class="name">KINLEY TONIC</span> <span class="price">55Kč</span>
-                            </div>
+    <section class="reservation" id="reservation" aria-labelledby="reservation-title">
+      <div class="reservation-image" aria-hidden="true"></div>
+      <div class="section-shell reservation-content reveal">
+        <h2 id="reservation-title">Rezervujte si svůj stůl.</h2>
+        <p>Dejte nám vědět předem a váš stůl bude čekat. Rezervaci vyřešíte rychle telefonicky nebo přes sociální sítě.</p>
+        <div class="reservation-actions">
+          <a class="button button-primary" href="#contact">Kontaktovat bar</a>
+          <a class="text-link" href="https://www.facebook.com" target="_blank" rel="noopener noreferrer">Napsat na Facebook <span aria-hidden="true">↗</span></a>
+        </div>
+      </div>
+    </section>
 
-                            <hr class="line">
-                            <p>original, rose, ginger</p>
-                        </div>
-                        <div class="one-row">
-                            <div class="row">
-                                <span class="name">MATTONI</span> <span class="price">55Kč</span>
-                            </div>
+    <section class="section menu-section" id="menu" aria-labelledby="menu-title">
+      <div class="section-shell">
+        <div class="section-head section-head-simple reveal">
+          <h2 id="menu-title">Nápojový lístek</h2>
+        </div>
 
-                            <hr class="line">
-                            <p>neperlivá, jemně perlivá, perlivá</p>
-                        </div>
-                        <div class="one-row">
-                            <div class="row">
-                                <span class="name">RAUCH</span> <span class="price">55Kč</span>
-                            </div>
+        <div class="menu-tabs" role="tablist" aria-label="Kategorie nápojového lístku">
+          <button type="button" class="menu-tab is-active" role="tab" aria-selected="true" data-menu-target="cocktails">Koktejly</button>
+          <button type="button" class="menu-tab" role="tab" aria-selected="false" data-menu-target="soft">Nealko</button>
+          <button type="button" class="menu-tab" role="tab" aria-selected="false" data-menu-target="beer">Pivo</button>
+          <button type="button" class="menu-tab" role="tab" aria-selected="false" data-menu-target="wine">Víno</button>
+        </div>
 
-                            <hr class="line">
-                            <p>pomeranč, grep, malina-broskev, černý rybíz</p>
-                            <div class="empty-line"></div>
-                            <h3>Pivo 0,5</h3>
-                            <div class="empty-line"></div>
-                            <div class="one-row">
-                                <div class="row">
-                                    <span class="name">RADEGAST 12°;</span> <span class="price">55Kč</span>
-                                </div>
-
-                                <hr class="line">
-                                <p></p>
-                            </div>
-                            <div class="one-row">
-                                <div class="row">
-                                    <span class="name">CORONA</span> <span class="price">85Kč</span>
-                                </div>
-
-                                <hr class="line">
-                                <p></p>
-                            </div>
-                            <div class="one-row">
-                                <div class="row">
-                                    <span class="name">BIRELL</span><span class="price">50Kč</span>
-                                </div>
-
-                                <hr class="line">
-                                <p> světlý, polotmavý, pomelo-grep</p>
-                            </div>
-                            <div class="empty-line"></div>
-                            <h3>Víno 0,1</h3>
-                            <div class="empty-line"></div>
-                            <div class="one-row">
-                                <div class="row">
-                                    <span class="name">CHARDONEY</span> <span class="price">45Kč</span>
-                                </div>
-
-                                <hr class="line">
-                                <p>bílé, polosladké</p>
-                            </div>
-
-
-                            <div class="one-row">
-                                <div class="row">
-                                    <span class="name">RULANDSKÉ ŠEDÉ</span> <span class="price">45Kč</span>
-                                </div>
-
-                                <hr class="line">
-                                <p>bílé, suché</p>
-                            </div>
-
-                            <div class="one-row">
-                                <div class="row">
-                                    <span class="name">CABERNET SAUVIGNON</span> <span class="price">45Kč</span>
-                                </div>
-
-                                <hr class="line">
-                                <p>červené, polosladké</p>
-                            </div>
-
-                        </div>
-                    </div>
-
-
-                    <div class="col">
-                        <div class="drink-menu">
-                            <h3>Koktejly</h3>
-                            <div class="empty-line"></div>
-                            <div class="one-row">
-                                <div class="row">
-                                    <span class="name">CUBA LIBRE</span> <span class="price">115Kč</span>
-                                </div>
-
-                                <hr class="line">
-                                <p>bílý rum, cola, limeta,máta</p>
-                            </div>
-                            <div class="one-row">
-                                <div class="row">
-                                    <span class="name">PIŇA COLADA</span> <span class="price">145Kč</span>
-                                </div>
-
-                                <hr class="line">
-                                <p>bilý rum, kokosový sirup, ananasový juice,smetana</p>
-                            </div>
-                            <div class="one-row">
-                                <div class="row">
-                                    <span class="name">DAIQUIRI</span> <span class="price">145Kč</span>
-                                </div>
-
-                                <hr>
-                                <p>bílý rum,limetový fresh,cukrový sirup</p>
-                            </div>
-                            <div class="one-row">
-                                <div class="row">
-                                    <span class="name">SEX ON THE BEACH</span> <span class="price">145Kč</span>
-                                </div>
-
-                                <hr class="line">
-                                <p>vodka,broskový likér,pomerančový juice,grenadina</p>
-                            </div>
-                            <div class="one-row">
-                                <div class="row">
-                                    <span class="name">COSMOPOLITAN</span> <span class="price">145Kč</span>
-                                </div>
-
-                                <hr class="line">
-                                <p>vodka, pomerančový likér,limetový fresh, brusinkový juice</p>
-                            </div>
-                            <div class="one-row">
-                                <div class="row">
-                                    <span class="name">HUGO</span> <span class="price">125Kč</span>
-                                </div>
-
-                                <hr class="line">
-                                <p>bezinkový sirup, prosecco,soda</p>
-
-                                <div class="one-row">
-                                    <div class="row">
-                                        <span class="name">APEROL SPRITZ</span> <span class="price">125Kč</span>
-                                    </div>
-
-                                    <hr class="line">
-                                    <p>aperol,prosecco,soda</p>
-                                </div>
-                                <div class="one-row">
-                                    <div class="row">
-                                        <span class="name">GIN & TONIC</span> <span class="price">125Kč</span>
-                                    </div>
-
-                                    <hr class="line">
-                                    <p>gin,tonic</p>
-                                </div>
-                                <div class="one-row">
-                                    <div class="row">
-                                        <span class="name">TEQUILA SUNRISE</span><span class="price">125Kč</span>
-                                    </div>
-
-                                    <hr class="line">
-                                    <p>tequila,grenadina, pomerančový juice</p>
-                                </div>
-
-                                <div class="one-row">
-                                    <div class="row">
-                                        <span class="name">SKINNY BITCH</span> <span class="price">115Kč</span>
-                                    </div>
-
-                                    <hr class="line">
-                                    <p>vodka,soda,limeta</p>
-                                </div>
-
-
-                                <div class="one-row">
-                                    <div class="row">
-                                        <span class="name">CHUPITO</span> <span class="price">75Kč</span>
-                                    </div>
-
-                                    <hr class="line">
-                                    <p>bílý rum, limetový cordial,koktejlová třešeň</p>
-                                </div>
-
-                            </div>
-                        </div>
-                    </div>
-                </div>
+        <div class="menu-grid">
+          <article class="menu-card reveal">
+            <div class="menu-category" data-menu-category="soft">
+              <h3>Nealkoholické nápoje <small>0,25 / 0,30 l</small></h3>
+              <dl class="drink-list">
+              <div><dt>COCA-COLA <small>original, zero</small></dt><dd>55 Kč</dd></div>
+              <div><dt>SPRITE</dt><dd>55 Kč</dd></div>
+              <div><dt>FANTA</dt><dd>55 Kč</dd></div>
+              <div><dt>KINLEY TONIC <small>original, rose, ginger</small></dt><dd>55 Kč</dd></div>
+              <div><dt>MATTONI <small>neperlivá, jemně perlivá, perlivá</small></dt><dd>55 Kč</dd></div>
+              <div><dt>RAUCH <small>pomeranč, grep, malina–broskev, černý rybíz</small></dt><dd>55 Kč</dd></div>
+              </dl>
             </div>
 
-
-        </section>
-        <!--photogallery-->
-        <section class="photogallery" id="photogallery">
-            <h1 class="heading">Fotogalerie</h1>
-            <div class="slider-container">
-                <div class="slider">
-                    <img src="img/2.jpg" alt="Image 1">
-                    <img src="img/3.jpg" alt="Image 2">
-                    <img src="img/4.jpg" alt="Image 3">
-                    <img src="img/5.jpg" alt="Image 4">
-                    <img src="img/6.jpg" alt="Image 5">
-                    <img src="img/7.jpg" alt="">
-                    <img src="img/8.jpg" alt="">
-                    <img src="img/pexels-anthony-leong-2093089.jpg" alt="">
-                    <img src="img/14.jpg" alt="">
-                </div>
-
-            </div>
-        </section>
-
-        <!--Contact-->
-        <section class="contact" id="contact">
-            <h1 class="heading2">Zde nás najdete</h1>
-            <div class="local-icon">
-                <img src="img/marker.png" alt="">
-            </div>
-            <div class="map">
-                <iframe src="https://frame.mapy.cz/s/ducamacefo"></iframe>
-            </div>
-            <div class="container-contact">
-
-
-                <div class="open-time">
-                    <h3>Otevírací doba</h3>
-                    <div class="container-time">
-                        <div class="one-row">
-                            <div class="row">
-                                <span class="name">PONDĚLÍ</span> <span class="hours close">ZAVŘENO</span>
-                            </div>
-                            <hr class="line">
-                        </div>
-                        <div class="one-row">
-                            <div class="row">
-                                <span class="name">ÚTERÝ</span> <span class="hours">16:00 - 23:00</span>
-                            </div>
-                            <hr class="line">
-                        </div>
-                        <div class="one-row">
-                            <div class="row">
-                                <span class="name">STŘEDA</span> <span class="hours">16:00 - 23:00</span>
-                            </div>
-                            <hr class="line">
-                        </div>
-                        <div class="one-row">
-                            <div class="row">
-                                <span class="name">ČTVRTEK</span> <span class="hours">16:00 - 23:00</span>
-                            </div>
-                            <hr class="line">
-                        </div>
-                        <div class="one-row">
-                            <div class="row">
-                                <span class="name">PÁTEK</span> <span class="hours">16:00 - 04:00</span>
-                            </div>
-                            <hr class="line">
-                        </div>
-                        <div class="one-row">
-                            <div class="row">
-                                <span class="name">SOBOTA</span> <span class="hours">16:00 - 04:00</span>
-                            </div>
-                            <hr class="line">
-                        </div>
-                        <div class="one-row">
-                            <div class="row">
-                                <span class="name">NEDĚLE</span> <span class="hours">16:00 - 23:00</span>
-                            </div>
-                            <hr class="line">
-                        </div>
-
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="info">
-                        <div class="address">
-                            <h3>KDE NÁS NAJDETE</h3>
-                            <h3>Libation Station</h3>
-                            <p>Example 17</p>
-                            <p>Hodonín 69 501</p>
-                        </div>
-
-                        <div class="social">
-                            <h3>KONTAKT</h3>
-                            <p>776 XXX XXX</p>
-                            <p>LibationStation@example.com</p>
-
-
-                            <div class="social-icons">
-                                <a href="https://www.facebook.com" target="_blank"><img src="img/facebook_1384005.png"
-                                        alt="odkaz na facebook" class="icons"></a>
-                                <a href="https://www.instagram.com" target="_blank"><img src="img/instagram_1384015.png"
-                                        alt="odkaz na instagram" class="icons"></a>
-                            </div>
-
-
-
-                        </div>
-
-                    </div>
-                </div>
+            <div class="menu-category" data-menu-category="beer">
+              <h3 class="menu-subtitle">Pivo <small>0,5 l</small></h3>
+              <dl class="drink-list">
+              <div><dt>RADEGAST 12°</dt><dd>55 Kč</dd></div>
+              <div><dt>CORONA</dt><dd>85 Kč</dd></div>
+              <div><dt>BIRELL <small>světlý, polotmavý, pomelo–grep</small></dt><dd>50 Kč</dd></div>
+              </dl>
             </div>
 
-        </section>
+            <div class="menu-category" data-menu-category="wine">
+              <h3 class="menu-subtitle">Víno <small>0,1 l</small></h3>
+              <dl class="drink-list">
+              <div><dt>CHARDONNAY <small>bílé, polosladké</small></dt><dd>45 Kč</dd></div>
+              <div><dt>RULANDSKÉ ŠEDÉ <small>bílé, suché</small></dt><dd>45 Kč</dd></div>
+              <div><dt>CABERNET SAUVIGNON <small>červené, polosladké</small></dt><dd>45 Kč</dd></div>
+              </dl>
+            </div>
+          </article>
 
-    </main>
-    <footer>
-        <p>&copy; Libation Station 2024, Magdaléna Škobrtalová všechna práva vyhrazena</p>
-    </footer>
+          <article class="menu-card menu-card-featured reveal">
+            <div class="menu-category is-active" data-menu-category="cocktails">
+              <h3>Koktejly</h3>
+              <dl class="drink-list">
+              <div><dt>CUBA LIBRE <small>bílý rum, cola, limeta, máta</small></dt><dd>115 Kč</dd></div>
+              <div><dt>PIÑA COLADA <small>bílý rum, kokosový sirup, ananasový juice, smetana</small></dt><dd>145 Kč</dd></div>
+              <div><dt>DAIQUIRI <small>bílý rum, limetový fresh, cukrový sirup</small></dt><dd>145 Kč</dd></div>
+              <div><dt>SEX ON THE BEACH <small>vodka, broskvový likér, pomerančový juice, grenadina</small></dt><dd>145 Kč</dd></div>
+              <div><dt>COSMOPOLITAN <small>vodka, pomerančový likér, limetový fresh, brusinkový juice</small></dt><dd>145 Kč</dd></div>
+              <div><dt>HUGO <small>bezinkový sirup, prosecco, soda</small></dt><dd>125 Kč</dd></div>
+              <div><dt>APEROL SPRITZ <small>Aperol, prosecco, soda</small></dt><dd>125 Kč</dd></div>
+              <div><dt>GIN &amp; TONIC <small>gin, tonic</small></dt><dd>125 Kč</dd></div>
+              <div><dt>TEQUILA SUNRISE <small>tequila, grenadina, pomerančový juice</small></dt><dd>125 Kč</dd></div>
+              <div><dt>SKINNY BITCH <small>vodka, soda, limeta</small></dt><dd>115 Kč</dd></div>
+              <div><dt>CHUPITO <small>bílý rum, limetový cordial, koktejlová třešeň</small></dt><dd>75 Kč</dd></div>
+              </dl>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
 
-    <script>
-        const slider = document.querySelector('.slider');
+    <section class="photogallery" id="photogallery">
+      <h2 class="heading">Fotogalerie</h2>
+      <div class="slider-container" aria-label="Fotogalerie Libation Station">
+        <div class="slider">
+          <img src="img/gallery-original-01.webp" width="900" height="1125" alt="Koktejl servírovaný v Libation Station" loading="lazy" decoding="async">
+          <img src="img/gallery-original-02.webp" width="900" height="1125" alt="Drink v atmosféře cocktail baru Libation Station" loading="lazy" decoding="async">
+          <img src="img/gallery-original-03.webp" width="900" height="1120" alt="Detail míchaného koktejlu" loading="lazy" decoding="async">
+          <img src="img/gallery-original-04.webp" width="900" height="1125" alt="Koktejl připravený na baru" loading="lazy" decoding="async">
+          <img src="img/gallery-original-05.webp" width="900" height="1348" alt="Večerní atmosféra v Libation Station" loading="lazy" decoding="async">
+          <img src="img/gallery-original-06.webp" width="894" height="1350" alt="Detail nápoje v cocktail baru" loading="lazy" decoding="async">
+          <img src="img/gallery-original-07.webp" width="892" height="1350" alt="Servírovaný drink v Libation Station" loading="lazy" decoding="async">
+          <img src="img/gallery-original-08.webp" width="900" height="1200" alt="Koktejl v tmavém barovém interiéru" loading="lazy" decoding="async">
+          <img src="img/gallery-original-09.webp" width="900" height="1350" alt="Míchaný cocktail v Libation Station" loading="lazy" decoding="async">
+        </div>
+      </div>
+    </section>
 
-        // Automatické posunování obrázků každých 3 sekundy
-        setInterval(() => {
-            const firstImage = slider.children[0];
-            slider.style.transition = 'transform 1.5s ease-in-out';
-            slider.style.transform = 'translateX(-100%)';
+    <section class="contact-section" id="contact" aria-labelledby="contact-title">
+      <div class="section-shell contact-grid">
+        <div class="contact-copy reveal">
+          <h2 id="contact-title">Kde nás najdete?</h2>
+          <p class="contact-lead">Libation Station<br>Example 17<br>Hodonín 695 01</p>
+          <p class="contact-details">776 XXX XXX<br>LibationStation@example.com</p>
+          <div class="social-links" aria-label="Sociální sítě">
+            <a href="https://www.facebook.com" target="_blank" rel="noopener noreferrer" aria-label="Facebook Libation Station">FB <span aria-hidden="true">↗</span></a>
+            <a href="https://www.instagram.com" target="_blank" rel="noopener noreferrer" aria-label="Instagram Libation Station">IG <span aria-hidden="true">↗</span></a>
+          </div>
+        </div>
 
-            // Po dokončení animace přesuneme první obrázek na konec
-            setTimeout(() => {
-                slider.style.transition = 'none';
-                slider.style.transform = 'translateX(0)';
-                slider.appendChild(firstImage);
-            }, 1500);
-        }, 3000);
-    </script>
+        <div class="hours-card reveal">
+          <h3>Otevírací doba</h3>
+          <p class="today-hours" id="today-hours" aria-live="polite"></p>
+          <dl class="hours-list">
+            <div><dt>Pondělí</dt><dd class="closed">Zavřeno</dd></div>
+            <div><dt>Úterý</dt><dd>16:00–23:00</dd></div>
+            <div><dt>Středa</dt><dd>16:00–23:00</dd></div>
+            <div><dt>Čtvrtek</dt><dd>16:00–23:00</dd></div>
+            <div><dt>Pátek</dt><dd>16:00–04:00</dd></div>
+            <div><dt>Sobota</dt><dd>16:00–04:00</dd></div>
+            <div><dt>Neděle</dt><dd>16:00–23:00</dd></div>
+          </dl>
+        </div>
+      </div>
+      <div class="map-wrap">
+        <iframe src="https://frame.mapy.cz/s/ducamacefo" title="Mapa – Libation Station, Hodonín" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </section>
+  </main>
 
+  <nav class="mobile-quick-actions" aria-label="Rychlé akce">
+    <a href="#reservation">Rezervace</a>
+    <a href="#contact">Kontakt</a>
+  </nav>
+
+  <footer class="site-footer">
+    <div class="section-shell footer-inner">
+      <a class="brand brand-footer to-top" href="#home" aria-label="Libation Station – nahoru">
+        <img class="brand-wordmark" src="img/libation-station-logo.svg" alt="Libation Station Cocktail Bar" width="416" height="67" loading="lazy" decoding="async">
+      </a>
+      <p>© MadlaArt 2026</p>
+      <a class="to-top" href="#home">Nahoru ↑</a>
+    </div>
+  </footer>
+
+  <script src="script.js" defer></script>
 </body>
-
 </html>
